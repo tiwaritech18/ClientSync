@@ -26,11 +26,11 @@ const Text = styled.span`
   }
 `;
 
-const MiniCard = () => {
+const MiniCard = ({text}) => {
   return (
     <Container>
       <Image src="https://icons-for-free.com/iconfiles/png/512/explore+find+magnifier+search+icon-1320185008030646474.png" />
-      <Text>Lorem ipsum dolor sit amet consectetur.</Text>
+      <Text>{text}</Text>
     </Container>
   );
 };

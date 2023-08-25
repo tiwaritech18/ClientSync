@@ -54,7 +54,7 @@ const Navbar = () => {
     <Container>
       <Wrapper>
         <Left>
-          <Logo>Agency.</Logo>
+          <Logo>ClientSync.</Logo>
           <Menu>
             <MenuItem>Home</MenuItem>
             <MenuItem>Features</MenuItem>
