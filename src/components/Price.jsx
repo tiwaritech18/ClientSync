@@ -9,6 +9,7 @@ const Container = styled.div`
   justify-content: center;
   @media only screen and (max-width: 480px) {
     flex-direction: column;
+    height:100%
   }
 `;
 
